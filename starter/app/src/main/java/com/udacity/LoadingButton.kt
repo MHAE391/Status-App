@@ -59,7 +59,7 @@ class LoadingButton @JvmOverloads constructor(
             width.toFloat(),
             height.toFloat(),
             paint)
-        
+
         if (buttonState == ButtonState.Loading) {
             paint.color = resources.getColor(R.color.cardview_dark_background)
             canvas?.drawRect(
